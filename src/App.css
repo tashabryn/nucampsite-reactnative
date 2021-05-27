@@ -1,10 +1,33 @@
-body {
-  font-family: "Open Sans", sans-serif;
+.jumbotron {
+  background-image: linear-gradient(to right, #26c583, #148865);
+  margin: 0;
+  color: white;
 }
 
-h1, h2, h3, .card-body>.card-title {
-  font-family: "Lobster", cursive;
+.navbar {
+  overflow: auto;
+  margin: auto;
+  position: fixed;
+  top: 0px;
+  font-size: large !important;
 }
+
+li:hover { 
+  background-color: #26c583;
+}
+
+.site-footer {
+  background-image: linear-gradient(#26c583, #148865);
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
 
 .card-title {
   font-weight: 500;
@@ -24,24 +47,4 @@ h2 {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
-}
-
-.site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0;
-}
-
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-  color: white;
-}
-
-.jumbotron h2 {
-  color: #CEC8FF;
-}
-
-.navbar-dark {
-  background-color: #901CAD;
 }
