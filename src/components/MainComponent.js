@@ -4,6 +4,7 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Background from './BackgroundComponent';
+import Location from './LocationComponent';
 
 class Main extends Component {
     constructor(props) {
@@ -28,6 +29,7 @@ class Main extends Component {
                     <Route path='/home' component={HomePage} />
                     <Redirect to='/home' />
                 </Switch>
+                <Location />
                 <Footer />
             </div>
         );
