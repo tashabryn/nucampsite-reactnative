@@ -30,10 +30,10 @@ class Header extends Component {
                                 <i class="fa fa-paper-plane fa-lg"></i><a href="mailto:youremail@thecatsmeow.com" className="text-white"> youremail@thecatsmeow.com</a>
                             </div>
                             <div className="col text-right">
-                                <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram text-white" /></a>{' '}
-                                <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook text-white" /></a>{' '}
-                                <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter text-white" /></a>{' '}
-                                <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube text-white" /></a> 
+                                <a className="btn btn-social-icon btn-instagram" target="_blank" rel="noreferrer" href="http://instagram.com/"><i className="fa fa-instagram text-white" /></a>{' '}
+                                <a className="btn btn-social-icon btn-facebook" target="_blank" rel="noreferrer" href="http://www.facebook.com/"><i className="fa fa-facebook text-white" /></a>{' '}
+                                <a className="btn btn-social-icon btn-twitter" target="_blank" rel="noreferrer" href="http://twitter.com/"><i className="fa fa-twitter text-white" /></a>{' '}
+                                <a className="btn btn-social-icon btn-google" target="_blank" rel="noreferrer" href="http://youtube.com/"><i className="fa fa-youtube text-white" /></a> 
                             </div>
                         </div>
                     </div>
