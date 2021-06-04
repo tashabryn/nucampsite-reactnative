@@ -5,6 +5,7 @@ import Home from './HomeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Background from './BackgroundComponent';
 import Location from './LocationComponent';
+import Kitties from './MeetKittiesComponent';
 
 class Main extends Component {
     constructor(props) {
@@ -27,8 +28,11 @@ class Main extends Component {
                 <Background />
                 <Switch>
                     <Route path='/home' component={HomePage} />
+                    <Route exact path='/kitties' component={Kitties}/>
+                    <Route exact path='/location' component={Location}/>
                     <Redirect to='/home' />
                 </Switch>
+                <Kitties />
                 <Location />
                 <Footer />
             </div>

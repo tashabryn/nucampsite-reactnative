@@ -20,7 +20,7 @@ li:hover {
   font-size: 50px;
 }
 
-.card-text {
+#reservecardtext {
   position: absolute;
   text-align: center;
   top: 125px;
@@ -46,20 +46,31 @@ li:hover {
   border-radius: 12px;
 }
 
+#kitties {
+  height: 30vw;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#buttonadopt {
+  background-color: #26c583;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#location {
+  font-size: 50px;
+}
+
 .site-footer {
   background-image: linear-gradient(#26c583, #148865);
   padding: 20px;
   margin-top: 0 !important;
-}
-
-
-
-
-
-
-
-.row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
 }
