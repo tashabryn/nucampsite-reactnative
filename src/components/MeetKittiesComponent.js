@@ -9,7 +9,7 @@ class Kitties extends Component {
                     <div className="row">
                         <div className="col">
                             <br></br>
-                        <h2 className="text-center" id="text">Meet The Kitties!</h2>
+                        <h2 className="text-center" id="kittiestext">Meet The Kitties!</h2>
                             <br></br>
                         <CardDeck>
                             <Card>

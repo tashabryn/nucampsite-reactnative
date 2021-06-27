@@ -28,7 +28,6 @@ class Main extends Component {
                 <Background />
                 <Switch>
                     <Route path='/home' component={HomePage} />
-                    <Route exact path='/kitties' component={Kitties}/>
                     <Redirect to='/home' />
                 </Switch>
                 <Kitties />

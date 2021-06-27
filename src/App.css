@@ -46,6 +46,10 @@ li:hover {
   border-radius: 12px;
 }
 
+#kittiestext {
+  font-size: 50px;
+}
+
 #kitties {
   height: 30vw;
   object-fit: cover;
